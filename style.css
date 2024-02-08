@@ -1,0 +1,91 @@
+/* Reset styles */
+html, body, h1, h2, section, button, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Set font family */
+    background-color: #f2f2f2; /* Light Grey background */
+    color: #333; /* Dark Grey text color */
+    line-height: 1.6; /* Set line height */
+    padding: 20px;
+}
+
+/* Heading styles */
+h1, h2 {
+    text-align: center; /* Center align headings */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    color: #555; /* Dark Grey for h1 and h2 */
+}
+
+/* Section styles */
+section {
+    margin: 0 auto 40px; /* Add margin at the bottom and auto margin left/right to center */
+    background-color: #fff; /* White background */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    width: 80%; /* Set width to cover 80% of the page */
+}
+
+/* Button styles */
+button {
+    display: block; /* Display buttons as blocks */
+    width: 100%; /* Set width to 100% */
+    padding: 10px 20px; /* Add padding */
+    margin-bottom: 10px; /* Add margin at the bottom */
+    border: none; /* Remove border */
+    background-color: #666; /* Grey background */
+    color: #fff; /* White text color */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Add pointer cursor */
+    border-radius: 5px; /* Add border radius */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Button hover styles */
+button:hover {
+    background-color: #999; /* Darker Grey on hover */
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 10px; /* Add margin at the bottom */
+    color: #777; /* Light Grey text color */
+}
+
+/* Story text styles */
+#story {
+    font-style: italic; /* Italicize text */
+    text-align: center; /* Center align text */
+    color: #444; /* Dark Grey text color */
+}
+
+/* Form input styles */
+input[type="text"], input[type="email"], select {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Add padding */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #666; /* Grey background */
+    color: white; /* White text color */
+    padding: 12px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Add pointer cursor */
+    width: 100%; /* Set width to 100% */
+}
+
+/* Submit button hover styles */
+input[type="submit"]:hover {
+    background-color: #999; /* Darker Grey on hover */
+}
+
+/* Colorful headi
